@@ -2,7 +2,6 @@ public class Sum_Of_Digit {
     public static int sumofdigits(int x) {
         int dig,rem=0;
         while(x>0){
-            // dig=dig%10;
             dig=x%10;
             rem=rem+dig;
             // for reverse of the given digits
