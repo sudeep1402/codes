@@ -1,5 +1,5 @@
 public class compress {
-    public static String compress(String str) {
+    public static String compresss(String str) {
       
         StringBuilder new1=new StringBuilder("");
         int count;
@@ -18,6 +18,6 @@ public class compress {
     }
     public static void main(String[] args) {
         String str="a3b2c5";
-        System.out.println("new string is:"+compress(str));    
+        System.out.println("new string is:"+compresss(str));    
    }
 }
