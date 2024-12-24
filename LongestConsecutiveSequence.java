@@ -10,6 +10,10 @@ public class LongestConsecutiveSequence {
                     k++;
                 } else { // Sequence breaks
                     maxx = Math.max(maxx, k); // Update max
+
+
+                    System.out.println( " sudeep");
+                    
                     k = 1;
                 }
             }       
