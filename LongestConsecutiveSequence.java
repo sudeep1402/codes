@@ -9,11 +9,7 @@ public class LongestConsecutiveSequence {
                 if (arr[i] == arr[i - 1] + 1) { // If consecutive
                     k++;
                 } else { // Sequence breaks
-                    maxx = Math.max(maxx, k); // Update max
-
-
-                    System.out.println( " sudeep");
-                    
+                    maxx = Math.max(maxx, k); // Update max      
                     k = 1;
                 }
             }       
