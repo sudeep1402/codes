@@ -17,14 +17,14 @@ public class SpiralMatrix {
             for (int j = ec; j >= sc; j--) {
                 System.out.print(matrix[er][j] + " ");
             }
-            er--; // Move end row up
+            er--; 
         }
 
         if (sc <= ec) {
             for (int i = er; i >= sr; i--) {
                 System.out.print(matrix[i][sc] + " ");
             }
-            sc++; // Move start column right
+            sc++; 
         }     
         }
     }
