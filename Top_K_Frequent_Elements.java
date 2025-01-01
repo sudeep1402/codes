@@ -1,10 +1,10 @@
 import java.util.*;
 public class Top_K_Frequent_Elements {
     public static void main(String[] args) {
-        int nums[]={1,1,1,2,2,3};
+        int nums[]={1,1,1,2,4,4,4,4,2,3};
         int k=2;
-        // ArrayList<Integer> list= new ArrayList<>();
-        int[] res=new int[k];
+        ArrayList<Integer> list= new ArrayList<>();
+        
         // int max = Collections.max(Arrays.asList(nums));
         // int n= Collections.max(Arrays.asList(nums));
         int n=Arrays.stream(nums).max().getAsInt();
@@ -15,13 +15,13 @@ public class Top_K_Frequent_Elements {
         }
         for (int i = 1; i<arr.length; i++) {
             System.out.println(i+" "+arr[i]);
-            // list.add(i);
-            res[i]=i;
-
+            list.add(i);
         }
-        for (int i:res ) {
-            System.out.println(i);
-            
+        System.out.println();
+        
+        for (int i = 0; i <k; i++) {
+            System.out.print(list.get(i)+" ");
+                        
         }
         // System.out.println(list);
         
