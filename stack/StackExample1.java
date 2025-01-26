@@ -8,7 +8,7 @@ class Node {
         this.data = data;
         this.next = null;
     }
-}
+}   
 
 // Class to represent the stack
 class Stack {
