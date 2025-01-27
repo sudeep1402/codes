@@ -24,7 +24,7 @@ class Stack {
         Node newNode = new Node(data);
         newNode.next = top; // Make the new node point to the previous top
         top = newNode; // Update the top to the new node
-        System.out.println(data + " pushed to stack.");
+        System.out.println(data + " pushed to stacka.");
     }
 
     // Function to remove a node (pop) from the stack
