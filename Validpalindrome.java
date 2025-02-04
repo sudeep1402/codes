@@ -12,7 +12,5 @@ public class Validpalindrome {
         System.out.println();
         String s="A man, a plan, a canal: Panama";
         isPalindrome(s);
-
-        
     }
 }
