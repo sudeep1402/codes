@@ -52,11 +52,7 @@ class Stack {
 public class dummy {
     public static void main(String[] args) {
         Stack s = new Stack();
-        // var1.push(10);
-        // var1.push(20);
-        // var1.push(30);
-        // var1.pop();
-        // var1.peek();
+
         
 
         s.push(10);  // Push elements
