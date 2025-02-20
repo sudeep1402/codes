@@ -30,12 +30,12 @@ class LongestCommonPrefix {
         
         // Test examples
         String[] strs1 = {"flower", "flow", "flight"};
-        System.out.println(solution.longestCommonPrefix(strs1)); // Output: "fl"
+        System.out.println(solution.longestCommonPrefix(strs1)); 
         
         String[] strs2 = {"dog", "racecar", "car"};
-        System.out.println(solution.longestCommonPrefix(strs2)); // Output: ""
+        System.out.println(solution.longestCommonPrefix(strs2)); 
         
         String[] strs3 = {"cir", "car"};
-        System.out.println(solution.longestCommonPrefix(strs3)); // Output: "c"
+        System.out.println(solution.longestCommonPrefix(strs3)); 
     }
 }
