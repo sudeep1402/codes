@@ -22,7 +22,7 @@ class LongestCommonPrefix {
                 break; // Stop at the first mismatch
             }
         }
-        return ans.toString(); // Convert StringBuilder to String and return the result
+        return ans.toString(); 
     }
 
     public static void main(String[] args) {
