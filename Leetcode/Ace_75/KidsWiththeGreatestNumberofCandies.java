@@ -18,7 +18,7 @@ class KidsWiththeGreatestNumberofCandies {
 
         return result;        
     }
-
+    
     public static void main(String[] args) {
         KidsWiththeGreatestNumberofCandies solution = new KidsWiththeGreatestNumberofCandies();
 

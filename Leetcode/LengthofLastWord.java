@@ -1,6 +1,6 @@
 public class LengthofLastWord {
     public static void lastword(String str) {
-        int lstwrd=0;
+        // int lastwrd=0;
         String[] word= str.split(" ");
         int n=word.length;
         System.out.println(" "+word[n-1]);
