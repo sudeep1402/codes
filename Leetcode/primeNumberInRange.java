@@ -12,12 +12,9 @@ class primeNumberInRange{
     public static int  compute(int n){
         int count=0;
         int num=1;
-        int a=0;
-        int b=0;
         while(true){
             num++;
             if(isPrime(num)){
-
                 count++;
             }
             if(count>=n)
